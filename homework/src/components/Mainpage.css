@@ -1,0 +1,592 @@
+.Mainpage{
+    margin-top: 12px;
+    margin-left: 0;
+    font-size: 7px;
+    color:black;
+    font-weight: 100;
+    background-color: rgb(226, 220, 220);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    text-align: center;
+    padding:0;
+    width:100%;
+}
+  
+  
+.İnputs{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color:rgb(226, 220, 220);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width:100%;
+    height: max-content;
+    
+    font-size: 7px;
+    
+}
+.Alıcı {
+    width: 9.5%;
+    margin-left: 4px;
+    text-align: center;
+    font-size: 10px;
+}
+.AlıcıCari {
+    width: 18%;
+    margin-left: 4px;
+    text-align: center;
+    font-size: 10px;
+}
+.Teslim{
+    margin-left: 5px;
+    background-color: white;
+    font-size: 10px;
+    width: 7%;
+}
+
+.Teslim_özel{
+   margin-left: 4px;
+   text-align: center;
+   width: 21%;
+   font-size: 10px;
+}
+.Satıcı{
+    margin-left: 4px;
+    font-size: 10px;
+    width: 7%;
+    
+    
+}
+.Banka{
+    margin-left: 4px;
+    width: 11%;
+    font-size: 10px;
+}
+.Ödeme{
+    margin-left: 4px;
+    width: 11%;
+    font-size: 10px;
+}
+.Fatura{
+    margin-left: 4px;
+    width: 11%;
+    margin-right: 4px;
+    font-size: 10px;
+}
+.Hide{
+    color:red;
+}
+.alt-menu{
+    display: flex;
+    background-color:rgb(226, 220, 220); 
+    text-align: center;
+    width: 100%;
+    font-weight: 100;
+    font-size: 7px;
+    margin-top: 1%;
+    align-items: center;
+    
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+.alt-menu > .btn{
+    background-color: rgb(12, 63, 80);
+    color: white;
+    padding-top: 6px;
+    text-align: center;
+    border-radius: 10px;
+}
+.product{
+    box-sizing: border-box; 
+    padding-left: 0.5%;
+    padding-right:0%;
+    padding-bottom: 2%;
+    background-color:rgb(226, 220, 220);  
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 8px;
+    
+    width: 11%;
+    font-weight: 800;
+    padding-top: 5px;
+    
+}
+.fonts{
+    font-size: 8px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+.selects{
+    width: 10%;
+}
+.letter-credit{
+    background-color:rgb(226, 220, 220); 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+.product-select{
+    font-size: 10px;
+    width:100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.letter-credit input{
+    width: 10.5%;
+    margin-left: 76.9%;
+    border: none;
+    margin-bottom:  2px ;
+    border-radius: 6px;
+    font-size: 12px;
+}
+.main-Product{
+    box-sizing: border-box;
+    width: 100%;
+    background-color:rgb(226, 220, 220); 
+    border: 1px solid gray;
+    display: flex;
+    max-height: max-content;
+}
+.fonts-h2{
+    font-size: 5px;
+    text-align: center;
+    padding-right: 1%;
+    padding-left: 1%;
+    width: 1%;
+}
+.Sıra{
+    font-size: 9px;
+    text-align: center;
+    padding-right: 1%;
+    padding-left: 1%;
+    width: 1%;
+    
+}
+.Seçimler{
+    box-sizing: border-box;
+    text-align: center;
+    background-color:rgb(226, 220, 220);  
+    font-size: 10px;
+    width: 11%;
+    font-weight: 800;
+    padding-left: 0.5%;
+    
+    
+}
+.little-boxes-out{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-left: 7%;
+    
+}
+.little-boxes{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    box-sizing: initial;
+    border: 1px solid black;
+    width: 180px;
+    height: 90px;
+    border-radius: 4px;
+    background-color: rgb(212, 209, 209);
+    
+    
+    
+}
+.title{
+    text-align: center;
+    box-sizing: flex;
+    border: 1px solid black;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    border-radius: 4px;
+    font-weight: 100;
+    font-size: 15px;
+    flex-direction: column;
+}
+.en{
+   font-size: 10px;
+   display: flex;
+   flex-direction: row;
+   margin-left: 2px;
+   margin-top: 2px;
+}
+.en input{
+    display: flex;
+    width:20px;
+    height:5px;
+    margin-left: 12%;
+    font-size: 7px;
+    
+}
+.boy{
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+.boy input{
+    display: flex;
+    width:20px;
+    height:5px;
+    margin-left: 2%;
+    font-size: 7px;
+     
+}
+.dikiş{
+    font-size: 8px;
+    margin-top: 11%;
+    width: 50px;
+    height: 25px;
+    margin-left: 1px;
+    border-radius: 4px;
+}
+.dikiş select{
+    width: 100%;
+}
+.menu-1{
+    display: flex;
+    flex-direction: column;
+}
+.menu-0{
+    display: flex;
+    flex-direction: row;
+}
+.menu-2{
+    font-size: 10px;
+    margin-left: 10px;
+}
+.menu-2 input{
+    display: flex;
+    width:20px;
+    height:5px;
+    /* margin-left:12px ; */
+    font-size: 7px;
+}
+.p{
+    display: flex;
+    flex-direction: row;
+}
+.boş{
+    font-size: 7px;
+    margin-top: 7%;
+    width: 40px;
+    height: 25px;
+    margin-left: 1px;
+    border-radius: 4px;
+}
+.boş select{
+    width: 100%;
+}
+.menu-3{
+    margin-left: 2px;
+    margin-top: 4px;
+}
+.menu-3 button{
+    font-size: 8px;
+    display: block;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    
+}
+.sil{
+    
+    background-color: red;
+    margin-top: 1px;
+    border-radius: 4px;
+}
+
+.Baş{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    
+    
+}
+.Alert{
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 30%;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 10%;
+    margin-left: 30%;
+    flex-direction: column;
+    background-color:  rgb(212, 209, 209);
+    
+    
+}
+.Alert-alt{
+    font-size: 30px;
+    padding-top: 20px;
+
+}
+.Alert-alt-two{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20%;
+    
+}
+.Alert-alt-two button{
+    width: 100px;
+    margin-left: 10px;
+
+}
+.içerik-yazı{
+    font-size: 10px;
+    margin-left:40px;
+    display: flex;
+
+}
+.Ürün-içeriği{
+    font-size: 10px;
+    box-sizing: border-box;
+    width: 18%;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+.Ürün-içeriği-child{
+    width: 100%;
+    font-size: 100%;
+    align-items: center;
+    text-align: center;
+}
+.Main-işlem{
+    display: flex;
+    flex-direction: column;
+    
+    height: 20%;
+    width: 100%;
+}
+.işlem{
+    display: flex;
+    flex-direction: row;
+    font-size: 8px;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.işlem input{
+    display: block;
+    width: 40px;
+    height: 15px;
+    font-size: 10px;
+    border: 1px solid black;
+    margin-top: 1px;
+    margin-left: 2%;
+    
+}
+.işlem button{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-right: 10px;
+    margin-top: 1.5px;
+    margin-left: 5px;
+    
+}
+.selects{
+    display:block;
+    box-sizing: initial;
+    width: 100% ;
+    max-width: 130px;
+    height: 10px;
+    font-size: 10px;
+    margin-left: 2%;
+}
+.İşlem{
+    font-size: 10px;
+    width: 5.1%;
+    
+}
+.Gruplar{
+    font-size: 10px;
+    
+    width: 8.0%;
+}
+.Desenler{
+    font-size: 10px;
+    
+    width: 8.0%;
+}
+.Renkler{
+    font-size: 10px;
+    
+    width: 8.0%;
+}
+.Miktar{
+    font-size: 10px;
+    
+    width: 5.0%;
+}
+.FirstPage-içerik{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 50px;
+    width: 380px;
+}
+.içerik-button{
+    height: 25px;
+    width: 34.4%;
+    margin-top: 5px;
+}
+.içerik-buttons {
+    height: 25px;
+    width: 30%;
+    margin-top: 5px;
+    margin-left: 37%;
+    
+}
+.Toplam-Adet{
+    font-size: 10px;
+    align-items: center;
+    text-align: center;
+    width: 6%;
+}
+.Toplam-Adet input{
+    width: 20%;
+    height: 6%;
+    margin-top: 5px;
+    font-size: 7px;
+}
+.Birim{
+    font-size: 10px;
+    
+    width: 6%;
+}
+.Birim select{
+    width: 100%;
+    margin-top: 5px;
+}
+.Fiyat{
+    
+    font-size: 10px;
+    width: 5%;
+}
+.Fiyat input{
+    font-size: 10px;
+    width: 50%;
+    margin-top: 5px;
+    margin-left: 23%;
+}
+.BirimPara{
+    font-size: 10px;
+    width: 7%;
+    
+}
+.BirimPara select{
+    
+    width: 100%;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.Toplam{
+    font-size: 10px;
+    
+    width: 6%;
+    align-items: center;
+}
+.Toplam input{
+    width: 70%;
+    background-color: white;
+    margin-top: 4px;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-left: 7px;
+}
+.ürün-ekle{
+    border: 1px solid black;
+    margin-left: 5.1px;
+    max-width: min-content;
+    width: 3.6%;
+    font-size: 10px;
+}
+.ensonToplam{
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 100%;
+    background-color:rgb(226, 220, 220); 
+    margin-top: 10px;
+
+}
+.son-select{
+    font-size: 6px;
+    align-items:flex-start;
+    display: flex;
+    border: none;
+    height: 24px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 3px;
+    width:50px;
+    margin-left: 2px;
+    margin-bottom: 0px;
+
+}
+.toggle{
+    display: flex;
+    margin-top: 2px;
+    width: fit-content;
+    height: 8px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    align-items: center;
+    background-color: rgb(212, 209, 209);
+    border: none;
+}
+.gramaj-input{
+    margin-top: 2px;
+    display: flex;
+    width: 10px;
+    
+}
+.gramaj-input input{
+    font-size: 7px;
+    box-sizing: initial;
+    width: 44px;
+    height: 21px;
+    border-radius: 4px;
+}
+.alert-image{
+    width: 20vh;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+.son-select-two{
+    font-size: 7px;
+    margin-top: 5px;
+}
+
+.adet-input{
+    margin-left: 12px;
+}
+.silme-class{
+    width: 4%;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
